@@ -1,6 +1,6 @@
 # Algoritmo que leia 10 números do usuário
 # Depois calcule a soma dos número recebidos, use while
-usuario = 3
+usuario = 20
 soma=0
 while (usuario>=1):
     num = float(input('Digite um número:'))
