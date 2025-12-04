@@ -172,6 +172,10 @@ for contador in range(5):
 
 ---
 
-# Fim
 
-Obrigado! Perguntas?
+
+<a target="_black" href="./exercicio.html"> 
+
+# Exercicio
+
+</a>

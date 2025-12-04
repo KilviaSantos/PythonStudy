@@ -1,6 +1,11 @@
 {
   "scripts": {
-    "slides": "marp --engine engine.js --theme high-theme.css "
+    "run:fakeimg": "docker start fakeimg",
+    "slides": "marp --engine engine.js --theme high-theme.css --allow-local-files",
+    "index:pdf": "npm run slides -- index.md --pdf",
+    "index": "npm run slides -- index.md",
+    "exercicio:pdf": "npm run slides -- exercicio.md --pdf",
+    "exercicio": "npm run slides -- exercicio.md"
   },
   "dependencies": {
     "@marp-team/marp-cli": "4.2.3"

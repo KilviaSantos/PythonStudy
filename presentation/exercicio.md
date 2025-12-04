@@ -88,7 +88,7 @@ print(idade) # bug: apenas a ultimo idade será impressa
 
 ```python {1-2,8-9}
 nome_mais_novo = ""
-idade_mais_novo = 0;
+idade_mais_novo = 0
 
 for i in range(10):
   nome = input('Digite seu nome: ')
@@ -107,7 +107,7 @@ print(idade_mais_novo)
 
 ```python {7-8}
 nome_mais_novo = ""
-idade_mais_novo = 0;
+idade_mais_novo = 0
 for i in range(10):
   nome = input('Digite seu nome: ')
   idade = int(input('Digite sua idade: '))
