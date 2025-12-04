@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "slides": "marp --engine engine.js --theme high-theme.css "
+  },
+  "dependencies": {
+    "@marp-team/marp-cli": "4.2.3"
+  }
+}
